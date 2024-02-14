@@ -1,0 +1,80 @@
+@font-face{
+    src: url("Rumble Brave.otf");
+    font-family: rumble;
+}
+
+body {
+    background-image: url("GTR.jpg");
+    background-size: cover;
+    font-family: rumble;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    color: purple;
+    text-shadow: 2px 2px 2px black ;  
+}
+#save-el{
+    display: flex;
+    justify-content: center;
+   
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: normal;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+    font-family: rumble;
+    font-size: 29px;
+    text-shadow: 0px 0px 2px black;
+}
+
+
+#increment-btn {
+    background:#501D6C;
+    color: black;
+}
+
+#increment-btn:hover {
+    background: #6E2594 ;
+    color: black;
+}
+
+#save-btn {
+    background:#CEB83C;
+    color: black;
+}
+
+#save-btn:hover{
+    background-color:#ECD444 
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    border: 9px ridge black;
+    background-color: rgb(0,0,0,0.6);
+     
+}
+p {
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 2px 2px 2px black}
